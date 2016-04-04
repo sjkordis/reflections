@@ -6,3 +6,15 @@ How is the staging area different from the working directory and the repository?
 
 The staging area contains all files that will be committed on the next Commit operation. It is a temporary holding container that accumulates content that needs to be committed. Because these files are not yet committed, however, you can make changes to the list of files before you Commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+Only stage (git add) one file at a time. Then, run a "git diff --staging" command to view what will be committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are useful if I want to try a change but am not ready to move it into production. Branches also help me keep my changes logically separated in the repository.  Branches are particularly helpful when multiple people are working in the same code base.
+
+How do the diagrams help you visualize the branch structure?
+
+Keeping track of parents helps us avoid creating unreachable commits. This is WAY easier to view in Tortoise Git than with the "git log --graph" command.
+

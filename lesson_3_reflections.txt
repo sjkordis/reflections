@@ -6,3 +6,7 @@ Why might you want to always pull changes manually rather than having Git automa
 
 I want to main control of the synching process, so I don't inadvertently publish something to GitHub that isn't ready to be shared.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A Fork creates a new GitHub repository from an existing GitHub repository and shows the Commit history of the original repository in the new one. A clone copies a repository from one place (local or remote) to another. A branch creates a separate sandbox for experimentation that can later, if desired, be merged back into master (or some other branch).
+

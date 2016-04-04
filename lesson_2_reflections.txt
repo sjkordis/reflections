@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git creates the file structure for a new repository. Because you have not yet added any files, the repository is empty (from Git's perspective). You need to do this step to create the necessary metadata in the .git directory.
+

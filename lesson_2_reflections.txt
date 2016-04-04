@@ -18,3 +18,11 @@ How do the diagrams help you visualize the branch structure?
 
 Keeping track of parents helps us avoid creating unreachable commits. This is WAY easier to view in Tortoise Git than with the "git log --graph" command.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The merged branches have both coins and all the latest changes to Master (including color).  We show the branches coming together and continuing as Master, since Git is examining each change and merging all the changes it understands. We show the merged Commit as having two parents where the individual branches came together.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git's automatic merging makes collaboration much more convenient. Having to manually merge with a team larger than one would be cumbersome.
+

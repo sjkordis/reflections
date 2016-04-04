@@ -2,3 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 Git creates the file structure for a new repository. Because you have not yet added any files, the repository is empty (from Git's perspective). You need to do this step to create the necessary metadata in the .git directory.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area contains all files that will be committed on the next Commit operation. It is a temporary holding container that accumulates content that needs to be committed. Because these files are not yet committed, however, you can make changes to the list of files before you Commit.
+
